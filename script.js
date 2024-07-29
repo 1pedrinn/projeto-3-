@@ -8,18 +8,20 @@ const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
 
 const perguntas = [
-    {
-      enunciado:
-        "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+  {
+      enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
       alternativas: [
-        {
-          texto: "Isso é assustador!",
-          afirmacao: "afirmação",
-        },
-        {
-          texto: "Isso é maravilhoso!",
-          afirmacao: "afirmação",
-        },
+          {
+              texto: "Isso é assustador!",
+              afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+          },
+          {
+              texto: "Isso é maravilhoso!",
+              afirmacao: "Quis saber como usar IA no seu dia a dia."
+          }           
+          
+      ]
+      
       ],
     },
     {
@@ -60,15 +62,19 @@ const perguntas = [
       alternativas: [
         {
           texto:
-            "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-          afirmacao: "afirmação",
-        },
-        {
-          texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-          afirmacao: "afirmação",
-        },
-      ],
-    },
+          const perguntas = [
+            {
+              enunciado:
+                "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+              alternativas: [
+                {
+                  texto: "Isso é assustador!",
+                  afirmacao: "afirmação",
+                },
+                {
+                  texto: "Isso é maravilhoso!",
+                  afirmacao: "afirmação",
+                },  },
     {
       enunciado:
         "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
@@ -81,8 +87,12 @@ const perguntas = [
         {
           texto:
             "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-          afirmacao: "afirmação",
-        },
+          afirmacao: [
+            "Tem dificuldade em expressar opiniÕes muito aprofundaddas sobre algum asunto
+            "Infelizmente passou a ultilizar a IA para fazer todas suas tarefas
+          ]
+          },
+          texto:"Escrever comando 
       ],
     },
   ];
